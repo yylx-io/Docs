@@ -1,0 +1,18 @@
+{
+  "name": "yylx-docs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "yylx.io AI relay documentation center",
+  "scripts": {
+    "build": "honkit build . _book",
+    "serve": "honkit serve . --port 4000",
+    "clean": "rm -rf _book"
+  },
+  "dependencies": {
+    "honkit-plugin-yylx-theme": "file:plugins/yylx-theme",
+    "honkit": "^6.1.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

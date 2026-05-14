@@ -1,0 +1,9 @@
+{
+  "name": "honkit-plugin-yylx-theme",
+  "version": "0.1.0",
+  "description": "Lightweight yylx.io documentation theme enhancements for HonKit",
+  "main": "index.js",
+  "engines": {
+    "honkit": ">=3.0.0"
+  }
+}

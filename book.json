@@ -1,0 +1,10 @@
+{
+  "title": "yylx.io 文档中心",
+  "description": "yylx.io AI 中转站接入与使用文档",
+  "author": "yylx.io",
+  "language": "zh-hans",
+  "plugins": ["-sharing", "-fontsettings", "yylx-theme"],
+  "styles": {
+    "website": "styles/website.css"
+  }
+}
