@@ -37,7 +37,7 @@ CC Switch 是开源项目，源码托管在 GitHub：[farion1231/cc-switch](http
 | 供应商名称 | `yylx.io` |
 | 官方链接 | ` https://app.yylx.io` |
 | API Key | 在 yylx.io 控制台创建的 Key |
-| API 请求地址 | `https://api.yylx.io`(不要勾选 「完整URL」) |
+| API 请求地址 | `https://app.yylx.io`(不要勾选 「完整URL」) |
 
 ## 验证是否生效
 <img src="../assets/screenshots/access/ccswitch-test.png" alt="测试模型" style="width: 400px">

@@ -13,7 +13,7 @@ Cursor 通常走 OpenAI 兼容配置，因此需要准备三项信息：
 | 字段 | 填写内容 |
 | --- | --- |
 | API Key | yylx.io 控制台创建的 Key |
-| Base URL | `https://api.yylx.io/v1` |
+| Base URL | `https://app.yylx.io/v1` |
 | Model | 控制台模型列表中的模型名称 |
 
 ## 配置步骤
@@ -25,7 +25,7 @@ Cursor 通常走 OpenAI 兼容配置，因此需要准备三项信息：
 5. Base URL 或 Override OpenAI Base URL 填写：
 
 ```text
-https://api.yylx.io/v1
+https://app.yylx.io/v1
 ```
 
 6. 如果界面允许手动添加模型，填写 yylx.io 控制台展示的模型名称。

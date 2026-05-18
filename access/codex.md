@@ -14,7 +14,7 @@ Codex CLI 可以通过配置文件添加自定义模型提供商。适合把 yyl
 | --- | --- |
 | Provider ID | `yylx` |
 | Provider Name | `yylx.io` |
-| Base URL | `https://api.yylx.io/v1` |
+| Base URL | `https://app.yylx.io/v1` |
 | API Key 环境变量 | `YYLX_API_KEY` |
 | Model | 控制台模型列表中的模型名称 |
 
@@ -56,7 +56,7 @@ model_provider = "yylx"
 
 [model_providers.yylx]
 name = "yylx.io"
-base_url = "https://api.yylx.io/v1"
+base_url = "https://app.yylx.io/v1"
 env_key = "YYLX_API_KEY"
 wire_api = "responses"
 ```

@@ -3,7 +3,7 @@
 > [!WARNING]
 > 推荐使用 [CC Switch](cc-switch.md) 来管理和切换 Claude Code 的 Provider 配置，无需手动改环境变量或配置文件。
 
-Claude Code 使用 Anthropic 相关配置项。通过 yylx.io 接入时，不要填写 OpenAI 兼容地址 `https://api.yylx.io//v1/messages`，而应该使用控制台「使用密钥」弹窗展示的 Claude Code 配置。
+Claude Code 使用 Anthropic 相关配置项。通过 yylx.io 接入时，不要填写 OpenAI 兼容地址 `https://app.yylx.io//v1/messages`，而应该使用控制台「使用密钥」弹窗展示的 Claude Code 配置。
 
 > [!TIP]
 > 如果你同时使用 Claude 官方订阅和 yylx.io API Key，建议把两套配置放在不同终端配置或 CC Switch Profile 中，避免环境变量互相覆盖。

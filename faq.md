@@ -7,7 +7,7 @@
 OpenAI 兼容客户端通常填写：
 
 ```text
-https://api.yylx.io/v1
+https://app.yylx.io/v1
 ```
 
 Claude Code 等 Anthropic 协议工具，请填写控制台展示的 Claude/Anthropic 接入地址。
@@ -47,7 +47,7 @@ Claude Code 等 Anthropic 协议工具，请填写控制台展示的 Claude/Anth
 
 常见原因是 Base URL 写错，或把完整接口路径填进了 Base URL。OpenAI 兼容客户端一般只需要填到 `/v1`。
 
-Claude Code 如果填成 `https://api.yylx.io/v1` 也可能失败，因为它使用的是 Claude/Anthropic 协议配置。请回到 API 密钥页面点击「使用密钥」，复制 Claude Code 对应配置。
+Claude Code 如果填成 `https://app.yylx.io/v1` 也可能失败，因为它使用的是 Claude/Anthropic 协议配置。请回到 API 密钥页面点击「使用密钥」，复制 Claude Code 对应配置。
 
 ## 为什么客户端提示模型不支持或接口格式错误？
 
