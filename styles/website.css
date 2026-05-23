@@ -66,22 +66,10 @@ body {
 }
 
 .yylx-brand-mark {
-  position: relative;
   width: 34px;
   height: 34px;
-  border-radius: 11px;
-  background:
-    linear-gradient(135deg, #7fe3ff 0%, #2f6bff 45%, #6d4dff 100%);
-  box-shadow: 0 10px 24px rgba(47, 107, 255, 0.22);
-  transform: rotate(45deg);
-}
-
-.yylx-brand-mark::after {
-  position: absolute;
-  inset: 8px;
-  content: "";
-  border-radius: 7px;
-  background: rgba(255, 255, 255, 0.88);
+  object-fit: contain;
+  display: block;
 }
 
 .yylx-brand-name {
@@ -801,10 +789,6 @@ html.yylx-dark .yylx-topbar {
 html.yylx-dark .yylx-brand,
 html.yylx-dark .yylx-brand:hover {
   color: var(--yylx-text);
-}
-
-html.yylx-dark .yylx-brand-mark::after {
-  background: rgba(15, 18, 24, 0.92);
 }
 
 html.yylx-dark .yylx-topbar #book-search-input {

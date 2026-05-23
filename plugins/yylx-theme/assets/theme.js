@@ -46,9 +46,9 @@ require(["gitbook", "jquery"], function(gitbook, $) {
       $topbar = $(
         '<header class="yylx-topbar">' +
           '<button type="button" class="yylx-mobile-menu" aria-label="打开目录"><span></span><span></span><span></span></button>' +
-          '<a class="yylx-brand" href="' + rootUrl() + '" aria-label="yylx.io 文档首页">' +
-            '<span class="yylx-brand-mark" aria-hidden="true"></span>' +
-            '<span class="yylx-brand-name">yylx.io</span>' +
+          '<a class="yylx-brand" href="' + rootUrl() + '" aria-label="鱼鱼连线 文档首页">' +
+            '<img class="yylx-brand-mark" src="https://yylx.io/logo.svg" alt="鱼鱼连线" />' +
+            '<span class="yylx-brand-name">鱼鱼连线</span>' +
           '</a>' +
           '<div class="yylx-topbar-search"></div>' +
           '<nav class="yylx-topnav" aria-label="快捷入口">' +
