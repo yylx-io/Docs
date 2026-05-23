@@ -1,6 +1,6 @@
-# yylx.io 
+# 鱼鱼连线 
 
-yylx.io 是面向开发者和 AI 工具用户的 API 中转服务。你可以通过统一的 API Key 和兼容接口，将模型能力接入 Claude Code、Codex、Cursor、Cherry Studio 等常用工具，适合需要在多个 AI 客户端、代码工具或自动化工作流中复用同一套模型资源的用户。
+鱼鱼连线 是面向开发者和 AI 工具用户的 API 中转服务。你可以通过统一的 API Key 和兼容接口，将模型能力接入 Claude Code、Codex、Cursor、Cherry Studio 等常用工具，适合需要在多个 AI 客户端、代码工具或自动化工作流中复用同一套模型资源的用户。
 
 > [!TIP]
 > 建议为每个客户端单独创建 API Key。这样既方便统计消耗，也方便在某个工具配置泄露时单独禁用。
