@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://docs.yylx.io/</loc>
+  </url>
+  <url>
+    <loc>https://docs.yylx.io/access/overview.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.yylx.io/access/create-api-key.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.yylx.io/access/cc-switch.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.yylx.io/access/claude-code.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.yylx.io/access/codex.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.yylx.io/access/cursor.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.yylx.io/access/cherry-studio.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.yylx.io/faq.html</loc>
+  </url>
+</urlset>
