@@ -1,6 +1,6 @@
 # 鱼鱼连线 
 
-鱼鱼连线 是面向开发者和 AI 工具用户的 API 中转服务。你可以通过统一的 API Key 和兼容接口，将模型能力接入 Claude Code、Codex、Cursor、Cherry Studio 等常用工具，适合需要在多个 AI 客户端、代码工具或自动化工作流中复用同一套模型资源的用户。
+鱼鱼连线 是面向开发者和 AI 工具用户的 API 中转服务。你可以通过统一的 API Key 和兼容接口，将模型能力接入 Claude Code、Claude Desktop、Codex、Cursor、Cherry Studio 等常用工具，适合需要在多个 AI 客户端、代码工具或自动化工作流中复用同一套模型资源的用户。
 
 > [!TIP]
 > 建议为每个客户端单独创建 API Key。这样既方便统计消耗，也方便在某个工具配置泄露时单独禁用。
@@ -9,7 +9,7 @@
 
 | 用户 | 典型需求 |
 | --- | --- |
-| 开发者 | 在 Codex、Claude Code、Cursor 等工具中接入模型 |
+| 开发者 | 在 Codex、Claude Code、Claude Desktop、Cursor 等工具中接入模型 |
 | AI 工具用户 | 在 Cherry Studio 等客户端中统一管理模型 |
 | 小团队 | 为成员提供统一的 Key、额度和模型入口 |
 | 运维用户 | 需要关注可用性、余额、倍率和请求错误 |

@@ -42,6 +42,8 @@ Claude Code 等工具使用 Anthropic 相关环境变量或配置项。请以控
 | Anthropic Token/API Key | 控制台创建的 API Key |
 | Model | 控制台支持的 Claude 模型名称 |
 
+Claude Desktop 可以在开发者模式中配置第三方 Provider / Gateway。配置时填写 yylx.io 的 Gateway 地址和 API Key，保存后按提示重启客户端。
+
 ## 推荐接入顺序
 
 第一次配置时，建议按下面的顺序走一遍：
@@ -58,6 +60,7 @@ Claude Code 等工具使用 Anthropic 相关环境变量或配置项。请以控
 | --- | --- |
 | 多个 CLI 工具切换 | [导入到 CC Switch](cc-switch.md) |
 | 主要使用 Claude Code | [导入到 Claude Code](claude-code.md) |
+| 使用 Claude 桌面端 | [导入到 Claude Desktop](claude-desktop.md) |
 | 主要使用 Codex CLI | [导入到 Codex](codex.md) |
 | 在编辑器里使用 Cursor | [导入到 Cursor](cursor.md) |
 | 图形化聊天客户端 | [导入到 Cherry Studio](cherry-studio.md) |

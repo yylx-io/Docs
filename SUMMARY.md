@@ -8,6 +8,7 @@
 * [创建 API Key](access/create-api-key.md)
 * [导入到 CC Switch](access/cc-switch.md)
 * [导入到 Claude Code](access/claude-code.md)
+* [导入到 Claude Desktop](access/claude-desktop.md)
 * [导入到 Codex](access/codex.md)
 * [导入到 Cursor](access/cursor.md)
 * [导入到 Cherry Studio](access/cherry-studio.md)
