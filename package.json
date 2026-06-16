@@ -4,7 +4,9 @@
   "private": true,
   "description": "yylx.io AI relay documentation center",
   "scripts": {
-    "build": "honkit build . _book",
+    "build": "honkit build . _book && node scripts/seo-postbuild.js",
+    "build:honkit": "honkit build . _book",
+    "seo": "node scripts/seo-postbuild.js",
     "serve": "honkit serve . --port 4000",
     "clean": "rm -rf _book"
   },
