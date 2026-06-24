@@ -53,7 +53,7 @@ require(["gitbook", "jquery"], function(gitbook, $) {
           '<div class="yylx-topbar-search"></div>' +
           '<nav class="yylx-topnav" aria-label="快捷入口">' +
             '<a href="https://yylx.io/blog/" target="_blank" rel="noopener">博客</a>' +
-            '<a href="https://yylx.io" target="_blank" rel="noopener">控制台</a>' +
+            '<a href="https://app.yylx.io/dashboard" target="_blank" rel="noopener">控制台</a>' +
             '<button type="button" class="yylx-theme-toggle" aria-label="切换浅色/暗色主题">' + themeIcon(theme) + '</button>' +
           '</nav>' +
         '</header>'
