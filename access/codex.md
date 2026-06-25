@@ -3,6 +3,9 @@
 > [!WARNING]
 > 推荐使用 [CC Switch](cc-switch.md) 来管理和切换 Codex 的 Provider 配置，无需手动改环境变量或配置文件。
 
+> [!INFO]
+> 这一页针对官方 **Codex CLI**（命令行）。如果你用的是 Codex 桌面客户端搭配第三方增强工具 **Codex++**，请改看 [导入到 Codex++](codex-plus-plus.md)。
+
 Codex CLI 可以通过配置文件添加自定义模型提供商。适合把 yylx.io 作为一个独立 Provider 保存下来，之后在 Codex 中直接选择使用。
 
 > [!INFO]
