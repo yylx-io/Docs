@@ -64,6 +64,14 @@ const pages = [
     keywords: ["Codex CLI 中转", "Codex API 配置", "Codex Provider", "config.toml"]
   },
   {
+    file: "access/codex-plus-plus.html",
+    source: "access/codex-plus-plus.md",
+    title: "Codex++ 接入鱼鱼连线 AI 中转站教程",
+    description:
+      "Codex++ 接入鱼鱼连线 AI 中转站教程，说明如何下载安装 Codex++ 管理工具、添加 YYLX Provider、填写 Base URL、API Key、Responses API 协议、拉取模型列表、测试连接并确认请求进入 yylx.io 使用记录，避免和官方 Codex CLI 配置混淆。",
+    keywords: ["Codex++", "CodexPlusPlus", "Codex 桌面端", "AI 中转站", "Responses API"]
+  },
+  {
     file: "access/cursor.html",
     source: "access/cursor.md",
     title: "Cursor 接入鱼鱼连线 AI 中转站教程",
@@ -82,7 +90,7 @@ const pages = [
   {
     file: "faq.html",
     source: "faq.md",
-    title: "鱼鱼连线 AI 中转站常见问题",
+    title: "鱼鱼连线 AI 中转站 常见问题",
     description:
       "鱼鱼连线 AI 中转站常见问题整理 Base URL、API Key、模型名称、余额消耗、401、403、404、429、503、协议不匹配、响应慢、模型不可用和 Key 泄露等问题，帮助用户快速定位配置、网络、账户或调用错误并完成修复，减少接入和使用中断，适合排查调用失败。",
     keywords: ["AI 中转站 FAQ", "API Key 401", "Base URL 404", "模型名称错误"],
