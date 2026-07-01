@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { execFileSync } = require("child_process");
 
 const SITE_URL = "https://docs.yylx.io";
 const SITE_NAME = "鱼鱼连线 YYLX.IO 文档中心";
@@ -112,6 +113,21 @@ function escapeJsonForHtml(value) {
 
 function pageUrl(page) {
   return `${SITE_URL}/${page.file === "index.html" ? "" : page.file}`;
+}
+
+function sourceLastmod(page) {
+  try {
+    const sourcePath = path.join(__dirname, "..", page.source);
+    const lastmod = execFileSync("git", ["log", "-1", "--format=%cs", "--", sourcePath], {
+      cwd: path.join(__dirname, ".."),
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"]
+    }).trim();
+    if (/^\d{4}-\d{2}-\d{2}$/.test(lastmod)) return lastmod;
+  } catch (_) {
+    // If git metadata is unavailable during a build, omit lastmod instead of inventing it.
+  }
+  return "";
 }
 
 function readSource(page) {
@@ -315,16 +331,15 @@ function injectSeo(page) {
 }
 
 function writeSitemap() {
-  const now = new Date().toISOString();
   const urls = pages
-    .map(
-      (page) => `  <url>
+    .map((page) => {
+      const lastmod = sourceLastmod(page);
+      return `  <url>
     <loc>${pageUrl(page)}</loc>
-    <lastmod>${now}</lastmod>
-    <changefreq>${page.file === "index.html" ? "weekly" : "monthly"}</changefreq>
+${lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : ""}    <changefreq>${page.file === "index.html" ? "weekly" : "monthly"}</changefreq>
     <priority>${page.file === "index.html" ? "1.0" : "0.8"}</priority>
-  </url>`
-    )
+  </url>`;
+    })
     .join("\n");
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
