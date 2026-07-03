@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://docs.yylx.io/</loc>
+    <loc>https://yylx.io/docs/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/access/overview.html</loc>
+    <loc>https://yylx.io/docs/access/overview</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/access/create-api-key.html</loc>
+    <loc>https://yylx.io/docs/access/create-api-key</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/access/cc-switch.html</loc>
+    <loc>https://yylx.io/docs/access/cc-switch</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/access/claude-code.html</loc>
+    <loc>https://yylx.io/docs/access/claude-code</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/access/claude-desktop.html</loc>
+    <loc>https://yylx.io/docs/access/claude-desktop</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/access/codex.html</loc>
+    <loc>https://yylx.io/docs/access/codex</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/access/codex-plus-plus.html</loc>
+    <loc>https://yylx.io/docs/access/codex-plus-plus</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/access/cursor.html</loc>
+    <loc>https://yylx.io/docs/access/cursor</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/access/cherry-studio.html</loc>
+    <loc>https://yylx.io/docs/access/cherry-studio</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://docs.yylx.io/faq.html</loc>
+    <loc>https://yylx.io/docs/faq</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

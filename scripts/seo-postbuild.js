@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { execFileSync } = require("child_process");
 
-const SITE_URL = "https://docs.yylx.io";
+const SITE_URL = "https://yylx.io/docs";
 const SITE_NAME = "鱼鱼连线 YYLX.IO 文档中心";
 const OG_IMAGE = "https://yylx.io/og.png";
 const OUT_DIR = path.join(__dirname, "..", "_book");
@@ -112,7 +112,8 @@ function escapeJsonForHtml(value) {
 }
 
 function pageUrl(page) {
-  return `${SITE_URL}/${page.file === "index.html" ? "" : page.file}`;
+  // Public URLs are extension-less (Cloudflare Pages clean URLs + docs proxy).
+  return `${SITE_URL}/${page.file === "index.html" ? "" : page.file.replace(/\.html$/, "")}`;
 }
 
 function sourceLastmod(page) {

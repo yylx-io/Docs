@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.yylx.io/sitemap.xml
+Sitemap: https://yylx.io/docs/sitemap.xml
